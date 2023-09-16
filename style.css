@@ -10,11 +10,13 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
-    backdrop-filter: blur(8px);
+#header{
+   /* background-image: linear-gradient(to bottom right, #780006, #130001);    */
+    
+    backdrop-filter: blur(5px);
     position: fixed;
     width: 100%;
-    
+ 
   
    
 }
