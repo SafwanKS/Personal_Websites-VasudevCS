@@ -1,0 +1,129 @@
+@font-face {
+    font-family: customFonts;
+    src:url(Quicksand-VariableFont_wght.ttf)
+}
+
+body{
+    font-family: customFonts;
+    background: #780006;
+    background-image: linear-gradient(to right, #450003, #140001);
+    margin: 0;
+    padding: 0;
+}
+header{
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
+    
+  
+   
+}
+.headSec{
+    padding-top: 3em;
+    background-image: linear-gradient(to bottom right, #780006, #130001);
+    padding-bottom: 6em;
+}
+
+.bodyback{
+    width: 100%;
+    background: #212121;
+    border: none;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+  /*  transform: translateY(-30px);*/
+    
+}
+.namediv{
+    height: 7em;
+    float: left;
+    padding: 10px; 0px; 10px;
+    margin-right: 2em;
+    
+}
+.passions{
+    width: 47.5%;
+    height: 10em;
+    float: left;
+    background: #333;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2
+    4px;
+    border: none;
+    border-radius: 15px;
+}
+.draw{
+    width: 163px;
+    
+    border: none;
+    border-radius: 10px;
+}
+.imgSec{
+    display: flex;
+    justify-content: center;
+}
+.buttonBack{
+    height: 2.8em;
+    width: 7em;
+    background: red;
+    margin-top: 10px;
+    border: 2px;
+    border-color: red;
+    border-radius: 5px;
+    color: white;
+}
+.dummy{
+    height: 3em;
+    width: 100%;
+    background: #212121;
+}
+.aboutBack{
+    background: #212121;
+
+}
+.headart{
+    height: 8em;
+    margin-bottom: 2em;
+    float: left;
+
+}
+
+.rowCol {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+footer{
+    height: 180px;
+    background: #212121;
+    display: flex;
+    padding: 1em;
+    
+}
+table{
+    height: 60px;
+    width: 100%;
+ 
+}
+#headText{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
