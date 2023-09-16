@@ -44,28 +44,12 @@ body{
     
 }
 .passions{
-    width: 47.5%;
+    width: 98%;
     height: 10em;
     float: left;
     background: #333;
     margin-bottom: 30px;
     
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2
-    4px;
-    border: none;
-    border-radius: 15px;
-}
-.passionsT{
-    width: 47.5%;
-    height: 10em;
-    
-    background: #333;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
