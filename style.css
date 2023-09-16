@@ -12,7 +12,7 @@ body{
 }
 #header{
    /* background-image: linear-gradient(to bottom right, #780006, #130001);    */
-    
+    max-height:3em;
     backdrop-filter: blur(5px);
     position: fixed;
     width: 100%;
