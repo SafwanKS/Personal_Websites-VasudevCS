@@ -59,8 +59,8 @@ body{
     border-radius: 15px;
 }
 .draw{
-    width: 163px;
-    
+    width: 160px;
+    float: left;
     border: none;
     border-radius: 10px;
 }
