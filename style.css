@@ -49,7 +49,7 @@ body{
     float: left;
     background: #333;
     margin-bottom: 30px;
-    
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -122,8 +122,8 @@ table{
  
 }
 #headText{
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     display: none;
 }
 html{
