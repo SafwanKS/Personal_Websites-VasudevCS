@@ -11,16 +11,17 @@
 
 
     <script src="script.js"></script>
+    <script src="dscript.js"></script>
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a onclick="closeNav()" href="#">Home</a>
-        <a onclick="closeNav()" href="#aboutSection">About Me</a>
-        <a onclick="closeNav()" href="#drawings">My Drawings</a>
+        <a onclick="goHome()" href="">Home</a>
+        <a onclick="goAbout()" href="">About Me</a>
+        <a onclick="closeNav()" href="#">My Drawings</a>
         <a onclick="closeNav()" href="https://www.instagram.com/spy___shadow">My Instagram</a>
         <a onclick="closeNav()" href="#enquirySec">Get your portrait</a>
-        <a onclick="closeNav()" href="#">Get your own Personal Website</a>
+        <a onclick="closeNav()" href="">Get your own Personal Website</a>
     </div>
     <header id="header">
         <div class="row">
@@ -30,69 +31,8 @@
             </div>
         </div>
     </header>
-    <section id="topSection" class="headSec">
-        <div class="col-12 p-4">
-            <img style="height: 5.8em" src="pic.png">
-            <div class="namediv">
-                <h3 style="color: white">
-                    <strong>Vasudev C S</strong></h3>
 
-                <p style="color: #fff">
-                    11th standard student at <br>St. antony's school, Mala.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class=" bodyback text-center">
-
-                    <h1 class="pt-4 text-center text-white"><strong>Who i am?</strong></h1>
-                    <div class="rowCol">
-                        <div class="column">
-                            <div class="col-6 col-md-3 passions">
-                                <img class="pimg" style="height: 4em" src="student.png">
-                                <p class="text-center text-white">
-                                    <br>Student
-                                </p>
-                            </div>
-                            <div class="col-6 col-md-3 passions">
-                                <img class="pimg" style="height: 4em" src="writer.png">
-                                <p class="text-center text-white">
-                                    Writer
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="col-6 col-md-3 passions">
-                                <img class="pimg" style="height: 4em" src="artist.png">
-                                <p class="text-center pt-3 text-white">
-                                    Artist
-                                </p>
-                            </div>
-                            <div class="col-6 col-md-3 passions">
-                                <img class="pimg" style="height: 4em" src="player.png">
-                                <p class="text-center pt-3 text-white">
-                                    Player
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="dummy">
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section id="drawings" class="imgSec" style="background: #fff">
+    <section id="drawings" class="imgSec text-white" style="background: #212121; padding-top: 3em">
 
         <div class="row text-center" style="width: 100%">
             <div style="margin-bottom: 3em" class="col-12">
@@ -106,7 +46,18 @@
                         <img class=" draw" src="6.jpg">
                         <img class=" draw" src="8.jpg">
                         <img class=" draw" src="10.jpg">
-
+                        <img class=" draw" src="12.jpg">
+                        <img class=" draw" src="14.jpg">
+                        <img class=" draw" src="16.jpg">
+                        <img class=" draw" src="18.jpg">
+                        <img class=" draw" src="20.jpg">
+                        <img class=" draw" src="22.jpg">
+                        <img class=" draw" src="24.jpg">
+                        <img class=" draw" src="26.jpg">
+                        <img class=" draw" src="28.jpg">
+                        <img class=" draw" src="30.jpg">
+                        <img class=" draw" src="32.jpg">
+                        <img class=" draw" src="33.jpg">
                     </div>
                     <div class="column">
                         <img class="draw" src="1.jpg">
@@ -114,45 +65,31 @@
                         <img class=" draw" src="5.jpg">
                         <img class=" draw" src="7.jpg">
                         <img class=" draw" src="9.jpg">
-                        <img class=" draw" src="11.jpg">                      
+                        <img class=" draw" src="11.jpg">
+                        <img class=" draw" src="13.jpg">
+                        <img class=" draw" src="15.jpg">
+                        <img class=" draw" src="17.jpg">
+                        <img class=" draw" src="19.jpg">
+                        <img class=" draw" src="21.jpg">
+                        <img class=" draw" src="23.jpg">
+                        <img class=" draw" src="25.jpg">
+                        <img class=" draw" src="27.jpg">
+                        <img class=" draw" src="29.jpg">
+                        <img class=" draw" src="31.jpg">
+                        <img class=" draw" src="32-1.jpg">
+                        <img class=" draw" src="34.jpg">
                     </div>
 
                 </div>
-                <button onclick="goPage()" class=" buttonBack">View More</button>
             </div>
         </div>
 
     </section>
     <section id="aboutSection">
+
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-8 aboutBack">
-                    <h1 class="text-center text-white pt-4"><strong>About Me</strong></h1>
-                    <p class="text-white pt-4">
-
-
-
-
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Hey there! I'm Vasudev C S, +1 commerce student at St. Antony's Higher Secondary School, Mala. I'm from thrissur. I'm a artist, small writer and also a football player.<br><br>
-
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ I find true joy in the world of art. My free time is often dedicated to creating beautiful drawings and illustrations. You can find a gallery of my artwork right here on my website, where I pour my imagination onto the canvas. Art is my escape, my sanctuary, and my way of expressing the beauty I see in the world.
-                        <br><br>
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  I love cat's , and their playful antics never fail to bring a smile to my face. Music is another passion of mine, and I enjoy the melodies that accompany me on this journey called life.<br><br>
-
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ One of my greatest joys is traveling. Exploring new places, experiencing diverse cultures, and connecting with people from around the world is a source of inspiration and growth for me.<br><br>
-
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ I cherish the moments spent with friends, laughing, sharing stories, and creating lasting memories. Friendships are the threads that weave the fabric of life, and I'm grateful for the bonds I've formed with kindred spirits.<br><br>
-
-                        ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Thank you for taking the time to get to know me better. Feel free to explore my website to view my artwork and perhaps gain some inspiration along the way. If you share any of my interests or simply want to connect, don't hesitate to reach out. Let's embark on this beautiful journey of self-discovery, creativity, and exploration together.
-                        <br><br>
-                        With warm regards,
-                        Vasudev C S
-                    </p>
-                    <div class="dummy">
-
-                    </div>
-                </div>
-                <div id="enquirySec" style="background: white"class="col-12 col-md-4">
+                <div id="enquirySec" style="background: #fff">
                     <h1 class="text-center pt-4"><strong>For enquiry</strong></h1>
                     <h6 style="margin-top: 1em"><strong>Ready to turn your photo into <span style="color: red"> art</span>? <br>  Let us create a beautiful portrait for you. Get started now!</strong></h6><br>
                     <p>
