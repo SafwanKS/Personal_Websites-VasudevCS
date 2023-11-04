@@ -39,13 +39,13 @@ body {
 }
 .profDiv{
    height: 7em;
-   margin-left: 15px;
+   margin-left: 9px;
    float: left;
 }
 .namediv {
     height: 7em;
-    margin-left: 20px;
-    padding: 05px;
+    
+    padding-left: 10px;
     
 
 }
