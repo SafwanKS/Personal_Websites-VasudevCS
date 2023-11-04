@@ -25,3 +25,6 @@ function closeNav() {
 function goPage(){
     window.open("drawings.html");
 }
+function openAd() {
+            window.open('https://instagram.com/web__weaver?igshid=YWYwM2I1ZDdmOQ==')
+        }
