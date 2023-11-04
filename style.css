@@ -1,49 +1,64 @@
+
+#hideAll
+ {
+   position: fixed;
+   left: 0px; 
+   right: 0px; 
+   top: 0px; 
+   bottom: 0px; 
+   background-color: white;
+   z-index: 99; /* Higher than anything else in the document */
+
+ }
+
 @font-face {
     font-family: customFonts;
     src:url(Quicksand-VariableFont_wght.ttf)
 }
 
-body{
+body {
     font-family: customFonts;
     background: #780006;
     background-image: linear-gradient(to right, #450003, #140001);
     margin: 0;
     padding: 0;
 }
-#header{
-   /* background-image: linear-gradient(to bottom right, #780006, #130001);    */
-    max-height:3.5em;
+#header {
+    /* background-image: linear-gradient(to bottom right, #780006, #130001);    */
+    max-height: 3.5em;
     backdrop-filter: blur(5px);
     position: fixed;
     width: 100%;
- 
-  
-   
+    transform: translateY(3em);
+
+
 }
-.headSec{
-    padding-top: 3em;
+.headSec {
+    padding-top: 6em;
     background-image: linear-gradient(to bottom right, #780006, #130001);
     padding-bottom: 6em;
 }
 
-.bodyback{
+.bodyback {
     width: 100%;
     background: #212121;
     border: none;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
 
-  /*  transform: translateY(-30px);*/
-    
+    /*  transform: translateY(-30px);*/
+
 }
-.namediv{
+.namediv {
     height: 7em;
     float: left;
-    padding: 10px; 0px; 10px;
+    padding: 10px;
+    0px;
+    10px;
     margin-right: 2em;
-    
+
 }
-.passions{
+.passions {
     width: 98%;
     height: 10em;
     float: left;
@@ -58,17 +73,17 @@ body{
     border: none;
     border-radius: 15px;
 }
-.draw{
+.draw {
     width: 9.5em;
-   
+
     border: none;
     border-radius: 10px;
 }
-.imgSec{
+.imgSec {
     display: flex;
     justify-content: center;
 }
-.buttonBack{
+.buttonBack {
     height: 2.8em;
     width: 7em;
     background: red;
@@ -78,16 +93,16 @@ body{
     border-radius: 5px;
     color: white;
 }
-.dummy{
+.dummy {
     height: 3em;
     width: 100%;
     background: #212121;
 }
-.aboutBack{
+.aboutBack {
     background: #212121;
 
 }
-.headart{
+.headart {
     height: 8em;
     margin-bottom: 2em;
     float: left;
@@ -95,79 +110,131 @@ body{
 }
 
 .rowCol {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .column {
-  flex: 50%;
-  padding: 0 4px;
+    flex: 50%;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
 }
-footer{
+footer {
     height: 180px;
     background: #212121;
     display: flex;
     padding: 1em;
-    
+
 }
-table{
+table {
     height: 60px;
     width: 100%;
- 
+
 }
-#headText{
+#headText {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
     display: none;
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-  .sidenav {
-  height: 100%;
-  width: 0; 
-  position: fixed;
-  z-index: 1;
-  top: 0; 
-  background: #111;
-  background-image: url('nav-bg.png');
-  left: 0;
-  overflow-x: hidden; 
-  padding-top: 60px;
-  transition: 0.5s;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background: #111;
+    background-image: url('nav-bg.png');
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 #main {
-  transition: margin-left .5s;
-  padding: 20px;
+    transition: margin-left .5s;
+    padding: 20px;
 }
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.topAd {
+    width: 100%;
+    height: 3em;
+    margin: 0;
+    position: fixed;
+    
+    display: flex;
+    background: white;
+
+}
+.branding {
+    width: 50%;
+    display: flex;
+    padding-left: 0.7em;
+    justify-content: start;
+    align-items: center;
+}
+.branding img {
+    height: 40px;
+}
+.getBtn {
+    max-height: 50px;
+    width: 50%;
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.getBtn button {
+    width: 110px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-color: #A855Ff;
+    background-color: white;
+    color: #A855Ff;
+    cursor: pointer;
+    outline: none;
+    font-size: .8em;
+    font-weight: 500;
+
+}
+.getBtn button:hover {
+    background: white;
+    border: 0px solid white;
+    color: white;
+    background-image: linear-gradient(to bottom right, #A855Ff, #319CF3);
 }
