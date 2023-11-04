@@ -37,12 +37,14 @@ body {
     /*  transform: translateY(-30px);*/
 
 }
+.profDiv{
+   height: 7em;
+   float: left;
+}
 .namediv {
     height: 7em;
-    float: left;
+    
     padding: 10px;
-    0px;
-    10px;
     margin-right: 2em;
 
 }
