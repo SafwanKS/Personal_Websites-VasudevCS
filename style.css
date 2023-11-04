@@ -139,6 +139,7 @@ html {
     z-index: 1;
     top: 0;
     background: #111;
+    margin-top: 3em;
     background-image: url('nav-bg.png');
     left: 0;
     overflow-x: hidden;
